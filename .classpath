@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="classes/src"/>
+	<classpathentry kind="src" path="Find Number/src"/>
+	<classpathentry kind="src" path="friend numbers/src"/>
+	<classpathentry kind="src" path="minProject/src"/>
+	<classpathentry kind="src" path="perfect number/src"/>
+	<classpathentry excluding="characters/" kind="src" path="primitives"/>
+	<classpathentry kind="src" path="primitives/characters"/>
+	<classpathentry kind="src" path="String/src"/>
+	<classpathentry kind="src" path="Thread/src"/>
+	<classpathentry kind="src" path="vowels/src"/>
+	<classpathentry kind="output" path="String/out/production/untitled"/>
+</classpath>
