@@ -15,7 +15,7 @@ ch = '£';
 System.out.println("Character: " + ch + "its numeric value: " + (int)ch);
 ch = (char) -5;
 System.out.println("Character: " + ch + "its numeric value: " + (int)ch);
-ch = (char) +65535
+ch = (char) +65535;
 System.out.println("Character: " + ch + "its numeric value: " + (int)ch);
 	}
 
