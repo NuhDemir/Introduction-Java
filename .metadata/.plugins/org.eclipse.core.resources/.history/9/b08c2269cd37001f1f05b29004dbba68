@@ -1,0 +1,44 @@
+package ch003;
+
+public class ConstantVariables {
+
+	public static void main(String[] args) {
+
+		final int i = 8; // Constant Variable
+		System.out.println(i);
+
+		/*
+		 * Illegal i = 7 i++
+		 */
+
+		// Following is not illegal
+		final long l;
+		l = 7;
+		System.out.println(l);
+
+		final boolean b = !true;
+		final int k = 1 * 2 * 3 * 4 * 5 * 222;
+		System.out.println("k : " + k);
+		
+		
+		final float f = (float) (5*Math.PI)/3;
+		final double d = 2.4 *Math.PI;
+		
+	final String s1 = "Java is good!"; 
+	final String s2 = "The integer is" +5;
+	final String s3 = new String("Java is good! ");
+	
+	
+	int x = 3;
+	int y = 5;
+	final int j;
+	
+	if(x>y)
+		j=9;
+	else 
+		j=11;
+	
+System.out.println(j);
+	}
+
+}
